@@ -6,9 +6,12 @@
     
     <title>Document</title>
 
-    <link rel="stylesheet" href="brand.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/baseline.css">
-    <link rel="stylesheet" href="css/letsicons.css">
+    <script src="components/button.js"></script>
 </head>
 <body>
     <div class="body">
@@ -22,16 +25,11 @@
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
-                        <li><a href="#"><div class="nav-menu">Menu</div></a></li>
-                        <li><a href="#"><div class="nav-menu">Menu</div></a></li>
-                        <li><a href="#"><div class="nav-menu">Menu</div></a></li>
-                        <li><a href="#"><div class="nav-menu">Menu</div></a></li>
                     </ul>
                 </div>
                 <div class="nav-section">
                     <h6>Section name</h6>
                     <ul>
-                        <li style="width: 100%;"><div class="nav-menu menu-active">Menu</div></li>
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
                         <li><a href="#"><div class="nav-menu">Menu</div></a></li>
@@ -85,7 +83,11 @@
                     <button class="action-success btn-md">Text</button>
                     <button class="action-info btn-md">Text</button>
                     <button class="action-danger btn-md">Text</button>
-                    <button class="action-accent btn-md">Text</button>
+                    <lui-button
+                        label="Salvar informações"
+                        variant="accent"
+                        size="md">
+                    </lui-button>
                     <button class="action-neutral-dark btn-md">Text</button>
                     <button class="action-neutral-light btn-md">Text</button>
                     <button class="action-transparent btn-md btn-pressing">Text</button>

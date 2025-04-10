@@ -1,4 +1,5 @@
-@import "general-colors.css";
+@import "../theme/light.css";
+@import "../theme/dark.css";
 
 :root {
     /* Brand */

@@ -1,0 +1,17 @@
+.alert {
+    display: flex;
+    gap: var(--lui-spacing-16);
+    padding: var(--lui-spacing-16);
+    border-radius: var(--lui-border-radius-16);
+}
+
+.alert-content {
+    width: 100%;
+    display: block;
+    margin-bottom: var(--lui-spacing-20);
+}
+
+.alert-content p:first-child { margin-bottom: var(--lui-spacing-2); }
+.alert-content p:first-of-type { font-weight: var(--lui-typography-weight-bold) !important; }
+
+.alert-actions button:first-child { margin-right: var(--lui-spacing-16); }

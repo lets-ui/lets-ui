@@ -1,0 +1,34 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 100vh;
+    line-height: 1.5rem;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+
+.navbar img { padding: var(--lui-spacing-16) var(--lui-spacing-16) var(--lui-spacing-0) var(--lui-spacing-16); }
+.nav-section { padding: var(--lui-spacing-16); }
+.nav-section h6 { margin-bottom: var(--lui-spacing-8); }
+
+.nav-menu {
+    padding: var(--lui-spacing-16);
+    border-radius: 8px;
+}
+
+.nav-menu:hover { box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.24); }
+.nav-menu:active { box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4); }
+
+.menu-active {
+    background-color: #8733ff;
+    color: #fff;
+    cursor: default;
+}
+
+.navbar a {
+    color: var(--lui-color-neutral-dark-content-text-darkest);
+    text-decoration: none;
+}

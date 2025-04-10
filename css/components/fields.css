@@ -1,0 +1,46 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lui-spacing-8);
+}
+
+input[type="color"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+select {
+    color: var(--lui-color-neutral-dark-content-text-darkest);
+    background-color: var(--lui-color-neutral-light-layer-bg-surface);
+    border: var(--lui-spacing-2) solid var(--lui-color-neutral-dark-layer-border-stroke);
+    transition: filter 0.3s ease; /* Transição suave */
+}
+
+input[type="text"]:hover,
+select:hover {
+    filter: brightness(76%);
+}
+
+input[type="text"]:focus,
+select:focus {
+    border: var(--lui-spacing-2) solid var(--lui-color-brand-accent-layer-border-stroke) !important;
+    outline: none;
+}
+
+.form-field-lg {
+    font-size: var(--lui-typography-scale-size-body-lg);
+    border-radius: var(--lui-border-radius-8);
+    padding: var(--lui-spacing-12);
+}
+
+.form-field-md {
+    font-size: var(--lui-typography-scale-size-body-md);
+    border-radius: var(--lui-border-radius-4);
+    padding: var(--lui-spacing-8);
+}
+
+label { color: var(--lui-color-neutral-dark-content-text-darkest); }
