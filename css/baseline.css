@@ -1,20 +1,14 @@
-@import "reset.css";
-@import "foundation/border.css";
-@import "foundation/semantic-colors.css";
-@import "foundation/grid.css";
-@import "foundation/spacing.css";
-@import "foundation/typography.css";
-@import "foundation/letsicons.css";
+@import url(reset.css);
+@import url(../tokens/index.css);
+@import url(../components/index.js);
 
-@import "components/alert.css";
-@import "components/breadcrumb.css";
-@import "components/button.css";
-@import "components/checkbox.css";
-@import "components/fields.css";
-@import "components/icon-button.css";
-@import "components/link.css";
-@import "components/navbar.css";
-@import "components/tag.css";
+@import "../components/index.css";
+@import "../components/breadcrumb.css";
+@import "../components/checkbox.css";
+@import "../components/fields.css";
+@import "../components/link.css";
+@import "../components/navbar.css";
+@import "../components/tag.css";
 
 :root {
     --color-brand-1: hsl(252, 100%, 97%);

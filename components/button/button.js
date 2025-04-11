@@ -66,4 +66,4 @@ class LuiButton extends HTMLElement {
     }
   }
   
-  customElements.define('lui-button', LuiButton);  
+  customElements.define('lui-button', LuiButton);

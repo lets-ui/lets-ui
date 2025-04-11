@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/baseline.css">
-    <script src="components/button.js"></script>
 </head>
 <body>
     <div class="body">
@@ -44,6 +43,22 @@
     
         <div class="content">
             <div class="grid">
+
+                <lui-icon-button
+                    icon="icon-circle-close-regular"
+                    aria-label="Fechar">
+                </lui-icon-button>
+
+
+                <lui-alert 
+                    variant="info"
+                    title="Erro ao salvar"
+                    description="Tente novamente mais tarde."
+                    primary-label="Tentar de novo"
+                    secondary-label="Cancelar"
+                    >
+                    <span slot="icon">⚠️</span>
+                </lui-alert>
 
                 <div class="col-d-4">
                     <label class="styled-checkbox checkbox-md">
@@ -101,7 +116,7 @@
                         <div class="alert-icon">
                             <i class="icon-exclamation-fill" style="color: var(--lui-color-feedback-caution-content-icon-hard);"></i>
                         </div>
-                        <div class="alert-body">
+                        <div>
                             <div class="alert-content">
                                 <p class="">Se o parágrafo não está quebrando dentro da div, pode ser que o comportamento padrão de quebra de linha tenha</p>
                                 <p class="">
@@ -121,7 +136,7 @@
                         <div class="alert-icon">
                             <i class="icon-circle-danger-fill" style="color: var(--lui-color-feedback-danger-content-icon-hard);"></i>
                         </div>
-                        <div class="alert-body">
+                        <div>
                             <div class="alert-content">
                                 <p class="">Se o parágrafo não está quebrando dentro da div</p>
                                 <p class="">
@@ -141,7 +156,7 @@
                         <div class="alert-icon">
                             <i class="icon-circle-info-fill" style="color: var(--lui-color-feedback-info-content-icon-hard);"></i>
                         </div>
-                        <div class="alert-body">
+                        <div>
                             <div class="alert-content">
                                 <p class="">Se o parágrafo não está quebrando dentro da div, pode ser que o comportamento padrão de quebra de linha tenha</p>
                                 <p class="">
@@ -161,7 +176,7 @@
                         <div class="alert-icon">
                             <i class="icon-circle-check-fill" style="color: var(--lui-color-feedback-success-content-icon-hard);"></i>
                         </div>
-                        <div class="alert-body">
+                        <div>
                             <div class="alert-content">
                                 <p class="">Se o parágrafo não está quebrando dentro da div, pode ser que o comportamento padrão de quebra de linha tenha</p>
                                 <p class="">
@@ -214,5 +229,7 @@
             </div>
         </div>
     </div>
+
+    <script type="module" src="components/index.js"></script>
 </body>
 </html>
