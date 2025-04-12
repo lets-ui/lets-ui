@@ -1,14 +1,4 @@
-@import url(reset.css);
-@import url(../tokens/index.css);
-@import url(../components/index.js);
-
-@import "../components/index.css";
-@import "../components/breadcrumb.css";
-@import "../components/checkbox.css";
-@import "../components/fields.css";
-@import "../components/link.css";
-@import "../components/navbar.css";
-@import "../components/tag.css";
+@import "../components/components.css";
 
 :root {
     --color-brand-1: hsl(252, 100%, 97%);
